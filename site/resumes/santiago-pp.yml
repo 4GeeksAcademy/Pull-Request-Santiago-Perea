@@ -1,0 +1,194 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago
+    last_name: Perea
+    
+    # Define yourself in 4-5 words
+    motto: Sound shapes experiences
+    
+    # Focus
+    focus: Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Multidisciplinary,  strong service-oriented Audio Engineer/Producer with international 
+      experience delivering sound design, composition, and post-production across media formats 
+      in fast-paced environments. Passionate about sports, music, fashion, and design, and thrive 
+      in spaces where culture, creativity, and technology intersect.
+
+      Currently developing skills in Full-Stack delevopment, creative coding and adaptive sound design.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://res.cloudinary.com/soundbetter/image/upload/c_fill,f_auto,g_face:auto,h_533,q_auto:eco,w_763/v1706148575/assets/photos/379346/IMG_4510.jpg
+
+    # Contact Information
+    email: santiagopereaap@gmail.com #optional
+    phone: 630 1542 33 #optional
+    website: https://santiaperea.wixsite.com/portafoliodigital #optional
+    linkedin: Santiago Perea #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: santiago-pp
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: German
+        level: Intermediate (B2)
+
+      - idiom: Catalan
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Football
+
+      - item: Music
+
+      - item: Cinema
+
+# Your previous education
+education:
+    - degree: BSc in Technology and Music Production
+      university: University of Tecnológico de Monterrey
+      # optional
+      university_logo: https://avatars.githubusercontent.com/u/70600333?s=200&v=4
+      time: 2019 - 2023
+      details: |
+        Specialized in the creation of sound content for audiovisual media such as film, video, 
+        and digital platforms. Developed skills in music production and sound design, including 
+        postproduction and audio mixing for cinematic and audiovisual projects. Additionally, 
+        gained knowledge in the design of electroacoustic systems and advanced audio engineering solutions.
+
+
+    - degree: BSc in Creative Music Technology
+      university: Bath Spa University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bath_Spa_University_logo.svg/1190px-Bath_Spa_University_logo.svg.png
+      time: 2022 - 2023
+      details: |
+        Completed a semester of international studies at Bath, UK, with a focus on 
+        experimental sound design, audio DSP development, audiovisual performance, 
+        and sonic performance.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Pre-Sales Engineer / Project Coordination & Client Service
+      time: 2024 - 2025
+      company: Komit, Mexico
+      # optional
+      company_logo:
+      details: |
+        Led the design and full project management of audiovisual and technical
+        systems (professional audio, telecommunications, security, CCTV) for corporate clients. 
+        Assessed client needs and delivered tailored technical proposals. 
+        Coordinated with technical teams and suppliers, managed inventory, budgets and schedules, 
+        and ensured project quality. Provided post-sale support and issue resolution,
+        prioritizing customer satisfaction and service continuity.
+
+    - role: Operations and Customer Service Assistant (Event Support)
+      time: 2023
+      company: Holotronica, Bristol
+      # optional
+      company_logo: 
+      details: |
+        Supported logistics and customer service at large cultural events. 
+        Managed entry points,access control, and customer inquiries while assisting 
+        on-site operations. Worked in multicultural teams to ensure a positive visitor 
+        experience. Strengthened organizational and interpersonal skills in a dynamic, 
+        fast-paced setting. Collaborated on events with over 300 attendees.
+
+    - role: Studio Assistant & Client Relations Coordinator
+      time: 2022 - 2023
+      company: Estudio 13, Mexico
+      # optional
+      company_logo: 
+      details: |
+        Supported audio production and recording processes, while also coordinating 
+        communication with artists, clients, and suppliers. Handled customer service, 
+        experience, technical and communication issues to ensure client satisfaction. 
+        Responsible for budget tracking, timelines, and deliverables. Developed 
+        interpersonal and coordination skills in collaborative, detail-focused environments.
+
+    - role: Freelance / Creative Project Management & Client Relations
+      time: 2020 - Present
+      company: Remote / Freelance
+      # optional
+      company_logo: 
+      details: |
+        Managed audiovisual/music production for brands, short films, and events. 
+        Oversaw timelines, deliverables, and creative teams, while providing 
+        personalized client support. Developed empathy, active listening, 
+        and multitasking skills with a strong focus on quality and communication.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can visit my side projects or open source libraries in this
+      section.
+
+    assignments:
+      - title: Granular Synthesis Engine with Real-Time Interaction (Max/MSP, Jitter)
+        # optional
+        #project_logo: 
+        #link: 
+        tagline: "Modular audio processing system combining granular synthesis with real-time video interaction."
+
+      - title: Audiovisual & Interactive Media Art Performance “Cluster” 
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        tagline: "Immersive audiovisual system focused on real-time interaction, machine-human co-authorship, and modular performance design."
+
+      - title: Film Scoring for “Otro Tono de Azul”
+        # optional
+        # project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        # link: "#"
+        tagline: "Film scoring, recording, and mixing. Original score for short-film “Otro Tono de Azul”."
+
+      - title: Film Scoring for “Índigo”
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        tagline: "Film scoring for documentary on the creative process & project development for fashion brand, presented at the Zona Maco Exhibition."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 5%
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: P5
+        level: 50%
+
+      - name: Sketch & Photoshop
+        level: 70%
